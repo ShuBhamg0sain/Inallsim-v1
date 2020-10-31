@@ -98,11 +98,11 @@ def action():
                 os.system("clear")
                 print (logo)
                 print "\033[1;91mMOBILINK/JAZZ CODE HERE"
-                print "\033[1;95m00, 01, 02, 03, 04,"
-                print "\033[1;95m05, 06, 07, 08, 09,"
+                print "\033[1;95m536, 476, 832, 476, 537,"
+                print "\033[1;95m05, 540, 736, 545, 242,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
-                        k="+923"
+                        k="+919"
                         idlist = ('.txt')
                         for line in open(idlist,"r").readlines():
                                 id.append(line.strip())
@@ -118,7 +118,7 @@ def action():
                 print "\033[1;95m45, 64, ??, ??, ??,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
-                        k="+923"
+                        k="+919"
                         idlist = ('.txt')
                         for line in open(idlist,"r").readlines():
                                 id.append(line.strip())
@@ -134,7 +134,7 @@ def action():
                 print "\033[1;95m24, ??, ??, ??,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
-                        k="+923"
+                        k="+919"
                         idlist = ('.txt')
                         for line in open(idlist,"r").readlines():
                                 id.append(line.strip())
@@ -150,7 +150,7 @@ def action():
                 print "\033[1;95m35, 36, 37, ??,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
-                        k="+923"
+                        k="+919"
                         idlist = ('.txt')
                         for line in open(idlist,"r").readlines():
                                 id.append(line.strip())
@@ -166,7 +166,7 @@ def action():
                 print "\033[1;95m14, 15, 16, 17,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
-                        k="+923"
+                        k="+919"
                         idlist = ('.txt')
                         for line in open(idlist,"r").readlines():
                                 id.append(line.strip())
