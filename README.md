@@ -44,11 +44,11 @@ apt update
 
 pkg install python2 -y
 
- pip2 install requests
+pip2 install requests
 
- pip2 install mechanize
+pip2 install mechanize
 
- git clone https://github.com/ShuBhamg0sain/allsim.git
+git clone https://github.com/ShuBhamg0sain/allsim.git
 
 cd allsim
 
