@@ -78,11 +78,11 @@ def menu():
         print "\033[1;92mCYBER_HACKER_GLAXY_R.H.P_1.286-Wellcome"
         print
         print "\033[1;91mATTACK ON INDIAN NETWORKS"
-        print "\033[1;92m[1]  voda"
-        print "\033[1;92m[2]  idea"
-        print "\033[1;92m[3]  airtel"
-        print "\033[1;92m[4]  jio"
-        print "\033[1;92m[5]  bsnl"
+        print "\033[1;92m[1]  919"
+        print "\033[1;92m[2]  918"
+        print "\033[1;92m[3]  917"
+        print "\033[1;92m[4]  Facebook"
+        print "\033[1;92m[5]  Instagram"
         print "\033[1;92m[6]  UPDATE SYSTEM"
         print "\033[1;92m[0]  EXIT"
         print 50*'-'
@@ -97,8 +97,8 @@ def action():
                 os.system("clear")
                 print (logo)
                 print "\033[1;91mMOBILINK/JAZZ CODE HERE"
-                print "\033[1;95m536, 759, 832, 476, 537,"
-                print "\033[1;95m05, 540, 736, 545, 242,"
+                print "\033[1;95m536, 559, 621, 005, 198, 935, 936 "
+                print "\033[1;95m559, 621, 651, 695, 794, 956, 793,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
                         k="+919"
@@ -113,8 +113,7 @@ def action():
                 os.system("clear")
                 print (logo)
                 print "\033[1;91mTELINORE CODE HERE"
-                print "\033[1;94m40, 41, 42, 43, 44,"
-                print "\033[1;95m45, 64, ??, ??, ??,"
+                print "\033[1;94m009, 127, 173, 174, 175, 400, 756, 853, 953,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
                         k="+918"
@@ -143,36 +142,20 @@ def action():
                         menu()
         elif bch =="4":
                 os.system("clear")
-                print (logo)
-                print "\033[1;91mUFONE CODE HERE"
-                print "\033[1;94m31, 32, 33, 34,"
+                
+                print "\033[1;94m
                 print "\033[1;95m35, 36, 37, ??,"
                 try:
-                        c = raw_input(" SELECTED CODE: ")
-                        k="+916"
-                        idlist = ('.txt')
-                        for line in open(idlist,"r").readlines():
-                                id.append(line.strip())
+                        
                 except IOError:
                         print ("[!] File Not Found")
                         raw_input("\n[ Back ]")
                         menu()
         elif bch =="5":
+                import os
+                os.system('xdg-open https://www.instagram.com/shubham_g0sain/?hl=en')
                 os.system("clear")
-                print (logo)
-                print "\033[1;91mZONG CODE HERE"
-                print "\033[1;94m10, 11, 12, 13,"
-                print "\033[1;95m14, 15, 16, 17,"
-                try:
-                        c = raw_input(" SELECTED CODE: ")
-                        k="+915"
-                        idlist = ('.txt')
-                        for line in open(idlist,"r").readlines():
-                                id.append(line.strip())
-                except IOError:
-                        print ("[!] File Not Found")
-                        raw_input("\n[ Back ]")
-                        menu()
+                
         elif bch =="6":
             os.system("clear")
             os.system("pip2 install --upgrade balln")
