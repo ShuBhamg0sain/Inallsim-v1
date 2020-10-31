@@ -48,7 +48,7 @@ pkg install python2 -y
 
  pip2 install mechanize
 
- git clone https://github.com/Shubhamg0sain/allsim
+ git clone https://github.com/ShuBhamg0sain/allsim.git
 
 cd allsim
 
