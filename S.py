@@ -140,22 +140,70 @@ def action():
                         print ("[!] File Not Found")
                         raw_input("\n[ Back ]")
                         menu()
-        elif bch =="4":
+elif bch =="3":
                 os.system("clear")
-                
-                print "\033[1;94m
-                print "\033[1;95m35, 36, 37, ??,"
+                print (logo)
+                print "\033[1;91mWARID CODE HERE"
+                print "\033[1;94m20, 21, 22, 23,"
+                print "\033[1;95m24, ??, ??, ??,"
                 try:
-                        
+                        c = raw_input(" SELECTED CODE: ")
+                        k="+917"
+                        idlist = ('.txt')
+                        for line in open(idlist,"r").readlines():
+                                id.append(line.strip())
                 except IOError:
                         print ("[!] File Not Found")
                         raw_input("\n[ Back ]")
                         menu()
-        elif bch =="5":
-                import os
-                os.system('xdg-open https://www.instagram.com/shubham_g0sain/?hl=en')
+elif bch =="3":
                 os.system("clear")
-                
+                print (logo)
+                print "\033[1;91mWARID CODE HERE"
+                print "\033[1;94m20, 21, 22, 23,"
+                print "\033[1;95m24, ??, ??, ??,"
+                try:
+                        c = raw_input(" SELECTED CODE: ")
+                        k="+917"
+                        idlist = ('.txt')
+                        for line in open(idlist,"r").readlines():
+                                id.append(line.strip())
+                except IOError:
+                        print ("[!] File Not Found")
+                        raw_input("\n[ Back ]")
+                        menu()
+elif bch =="3":
+                os.system("clear")
+                print (logo)
+                print "\033[1;91mWARID CODE HERE"
+                print "\033[1;94m20, 21, 22, 23,"
+                print "\033[1;95m24, ??, ??, ??,"
+                try:
+                        c = raw_input(" SELECTED CODE: ")
+                        k="+917"
+                        idlist = ('.txt')
+                        for line in open(idlist,"r").readlines():
+                                id.append(line.strip())
+                except IOError:
+                        print ("[!] File Not Found")
+                        raw_input("\n[ Back ]")
+                        menu()
+elif bch =="3":
+                os.system("clear")
+                print (logo)
+                print "\033[1;91mWARID CODE HERE"
+                print "\033[1;94m20, 21, 22, 23,"
+                print "\033[1;95m24, ??, ??, ??,"
+                try:
+                        c = raw_input(" SELECTED CODE: ")
+                        k="+917"
+                        idlist = ('.txt')
+                        for line in open(idlist,"r").readlines():
+                                id.append(line.strip())
+                except IOError:
+                        print ("[!] File Not Found")
+                        raw_input("\n[ Back ]")
+                        menu()        
         elif bch =="6":
             os.system("clear")
             os.system("pip2 install --upgrade balln")
