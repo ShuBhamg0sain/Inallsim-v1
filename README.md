@@ -1,8 +1,5 @@
 # allsim
 
-## NOTE 
-Find me for ussername and password
-
 ### FIND...ME.
 
 
@@ -31,25 +28,3 @@ Facebook group : https://facebook.com/groups/226519011789922/?ref=group_browse
 
 Telegram :
 https://t.me/ShuBham_g0sain
-
-## installation
-
-apt update
-
- apt upgrade -y
-
- apt install git -y
-
- pkg install python
-
-pkg install python2 -y
-
-pip2 install requests
-
-pip2 install mechanize
-
-git clone https://github.com/ShuBhamg0sain/allsim.git
-
-cd allsim
-
-python2 s.py
