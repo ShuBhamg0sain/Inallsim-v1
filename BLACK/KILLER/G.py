@@ -61,7 +61,7 @@ def psb(z):
         for e in z + '\n':
                 sys.stdout.write(e)
                 sys.stdout.flush()
-                time.sleep(0.03)
+                time.sleep(0.001)
 
 def t():
     time.sleep(1)
@@ -209,11 +209,11 @@ def action():
 
         xxx = str(len(id))
         psb ('[✓] Total Numbers: '+xxx)
-        time.sleep(0.5)
+        time.sleep(0.02)
         psb ('[✓] Please wait, process is running ...')
-        time.sleep(0.5)
+        time.sleep(0.02)
         psb ('[!] (for Exit) Press CTRL Then Press z')
-        time.sleep(0.5)
+        time.sleep(0.02)
         print 50*'-'
         print
 
