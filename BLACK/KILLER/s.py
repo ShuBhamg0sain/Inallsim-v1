@@ -196,7 +196,7 @@ def action():
             print
             psb (" Tool has been successfully updated")
             time.sleep(2)
-            os.system("python2 .README.md")
+            os.system("python2 S.py")
 #       elif chb =='3':
 #           os.system('xdg-open https://www.facebook.com/100002059014174/posts/2677733205638620/?substory_index=0&app=fbl')
 #           time.sleep(1)
@@ -354,7 +354,7 @@ def action():
         print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
         print('[✓] CP File Has Been Saved : save/checkpoint.txt')
         raw_input('\n[Press Enter To Go Back]')
-        os.system('python2 .README.md')
+        os.system('python2 S.py')
 
 if __name__ == '__main__':
         menu()
